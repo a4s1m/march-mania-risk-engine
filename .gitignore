@@ -1,7 +1,14 @@
+# data & outputs
 data/
-__pyache__/
+submission.csv
+
+# python cache
+__pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# virtual env
 .venv/
+
+# macOS
 .DS_Store
-submission.csv
