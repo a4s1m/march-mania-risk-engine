@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("data/raw")
 def load_csv(file_name: str) -> pd.DataFrame:
     """
     Load a CSV file from the data directory.
